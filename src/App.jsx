@@ -12,7 +12,7 @@ const App = () => {
     window.addEventListener('resize', checkMobile)
 
 
-    const loadTimeout = setTimeout(() => setLoading(false), 2000) 
+    const loadTimeout = setTimeout(() => setLoading(false), 3000) 
     return () => {
       window.removeEventListener('resize', checkMobile)
       clearTimeout(loadTimeout)

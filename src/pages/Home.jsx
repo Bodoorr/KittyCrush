@@ -15,7 +15,7 @@ const Home = () => {
 
   const handleStart = async () => {
     setLoading(true)
-    await new Promise((res) => setTimeout(res, 1500)) 
+    await new Promise((res) => setTimeout(res, 4000)) 
     setStarted(true)
     setLoading(false)
   }
