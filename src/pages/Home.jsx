@@ -11,8 +11,27 @@ const Home = () => {
   const [started, setStarted] = useState(false)
   const [isSmiling, setIsSmiling] = useState(false)
 
-  const handleStart = () => {
+  const [loading, setLoading] = useState(false)
+
+  const handleStart = async () => {
+    setLoading(true)
+    await new Promise((res) => setTimeout(res, 1500)) 
     setStarted(true)
+    setLoading(false)
+  }
+  if (loading) {
+    return (
+      <div className="w-full h-screen flex flex-col items-center justify-center">
+        <img
+          src="/logo.jpg"
+          alt="Logo"
+          className="w-24 h-24 object-contain mb-6 animate-bounce"
+        />
+        <h1 className="font-emily text-pink-600 text-2xl font-bold">
+          Loading Valentine App...
+        </h1>
+      </div>
+    )
   }
 
   return (
