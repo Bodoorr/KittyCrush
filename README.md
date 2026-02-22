@@ -8,7 +8,7 @@
 
 ---
 
-#### **Live Version:** _Coming Soon_ 
+#### **Live Version:** https://kittycrush.up.railway.app
 
 ---
 
@@ -20,11 +20,11 @@ When the user smiles, hearts rain down and a cute Valentine message appears. If 
 The app uses live camera detection to recognize emotions instantly and create a playful experience.  
 It combines animation, real-time face tracking, and image capture to generate a shareable Valentine snapshot.
 
-#### **_Smile to unlock love. Frown and we’ll make you smile anyway _**
+#### **_Smile to unlock love. Frown and we’ll make you smile anyway_**
 
 ---
 
-### **_ Technologies Used_**
+### **_Technologies Used_**
 
 - React.js  
 - JavaScript  
